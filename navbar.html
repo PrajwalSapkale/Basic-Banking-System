@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <style>
+      .top{
+        color: rgb(251, 255, 0, 0.75);
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        margin-bottom: -12px;
+        margin: auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-color: rgb(0, 136, 255, 0.5);
+        width: 10%;
+      }
+
+      .navbar {
+          width: 50%;
+          background-image: linear-gradient(to bottom left, rgb(0, 0, 0, 0.75), rgb(255, 255, 255, 0.75));
+          overflow: auto;
+          border-radius: 15px;
+          margin: auto;
+      }
+        
+      /* Navigation links */
+      .navbar a {
+          float: left;
+          padding: 12px;
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          overflow: hidden;
+          font-size: 18px;
+          width:21.4%; 
+          text-align: center; 
+          background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255) 50%, black 50%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-size: 200% 100%;
+          background-position: 100%;
+          transition: background-position 500ms ease;
+      }
+        
+      .navbar a:hover{
+          text-decoration: underline;
+          text-decoration-color: rgb(255, 255, 255);
+          background-position: 0 100%;
+      }
+
+        
+      .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          padding: 12px;
+          background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.75));
+          color: rgb(0, 0, 0);
+          text-align: center;
+      }
+    </style>
+
+    <div class="top"><h3>Spark Bank</h3></div>
+
+    <div class="navbar">
+        <a href="http://localhost/home.php">Home</a>
+        <a href="http://localhost/customers.php">Our Customers</a>
+        <a href="http://localhost/transaction.php">Transfer Money</a>
+        <a href="http://localhost/transactionhistory.php">Transaction History</a>
+    </div>
+
+      <div class="footer">
+        <p>Copyright &copy; 2023. Made by Prajwal Sapkale</p>
+    </div>
+  </body>
+</html>
